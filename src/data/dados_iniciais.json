@@ -1,0 +1,176 @@
+{
+  "categorias": [
+    {
+      "titulo": "Séries",
+      "link": "https://www.alura.com.br/formacao-front-end",
+      "cor": "#1a001a",
+      "link_extra": {
+        "text": "Mais assistidas",
+        "url": ""
+      },
+      "videos": [
+        {
+          "titulo": "Em Destaque - Dark",
+          "url": "https://www.youtube.com/watch?v=9RNHKKYJvg8"
+        },
+        {
+          "titulo": "Black Mirror",
+          "url": "https://www.youtube.com/watch?v=W6STT9Fhdbo"
+        },
+        {
+          "titulo": "Dark",
+          "url": "https://www.youtube.com/watch?v=9RNHKKYJvg8"
+        },
+        {
+          "titulo": "The 100",
+          "url": "https://www.youtube.com/watch?v=yrYcfQPRG2A"
+        },
+        {
+          "titulo": "Legion",
+          "url": "https://www.youtube.com/watch?v=4SZ3rMMYBLY"
+        },
+        {
+          "titulo": "Altered Carbon",
+          "url": "https://www.youtube.com/watch?v=-Yt89b5AcwY"
+        },
+        {
+          "titulo": "Stranger Things",
+          "url": "https://www.youtube.com/watch?v=QsYMm3OOLRU"
+        },
+        {
+          "titulo": "Love, Death & Robots",
+          "url": "https://www.youtube.com/watch?v=wUFwunMKa4E"
+        }        
+      ]
+    },
+    {
+      "titulo": "Games",
+      "cor": "#001a00",
+      "link_extra": {
+        "text": "Gameplays em alta",
+        "url": ""
+      },
+      "videos": [
+        {
+          "titulo": "The Last of Us Part II",
+          "url": "https://www.youtube.com/watch?v=HBgPd_WBT2Y"
+        },
+        {
+          "titulo": "Days Gone",
+          "url": "https://www.youtube.com/watch?v=lfZACRWygPo"
+        },
+        {
+          "titulo": "Halo Infinite",
+          "url": "https://www.youtube.com/watch?v=HZtc5-syeAk"
+        },
+        {
+          "titulo": "Death Stranding",
+          "url": "https://www.youtube.com/watch?v=tMs35kRNGbo"
+        }
+      ]
+    },
+    {
+      "titulo": "Livros",
+      "cor": "#1a1a00",
+      "link_extra": {
+        "text": "Criticas",
+        "url": "" 
+      },
+      "videos": [
+        {
+          "titulo": "12 SCI-FIS para 2020",
+          "url": "https://www.youtube.com/watch?v=Oz-wLVFp5x0"
+        },
+        {
+          "titulo": "Eu, Robô",
+          "url": "https://www.youtube.com/watch?v=KQ08posRSto"
+        },
+        {
+          "titulo": "A Máquina do Tempo",
+          "url": "https://www.youtube.com/watch?v=CD97Gy-OrU8"
+        },
+        {
+          "titulo": "Eu sou a Lenda",
+          "url": "https://www.youtube.com/watch?v=m0Cn-LViYQE"
+        }
+      ]
+    },
+    {
+      "titulo": "Filmes",
+      "cor": "#331400",
+      "link_extra": {
+        "text": "Mais Assistidos",
+        "url": "" 
+      },
+      "videos": [
+        {
+          "titulo": "Interestellar",
+          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+        },
+        {
+          "titulo": "Gattaca",
+          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+        },
+        {
+          "titulo": "A Chegada",
+          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+        },
+        {
+          "titulo": "Feitiço do Tempo",
+          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+        }
+      ]
+    },
+    {
+      "titulo": "Recomendações",
+      "cor": "#1a0000",
+      "link_extra": {
+        "text": "Você pode gostar",
+        "url": ""
+      },
+      "videos": [
+        {
+          "titulo": "Eu sou a Lenda",
+          "url": "https://www.youtube.com/watch?v=dtKMEAXyPkg"
+        },
+        {
+          "titulo": "Assassins Creed Valhalla",
+          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+        },
+        {
+          "titulo": "God of War 4",
+          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+        },
+        {
+          "titulo": "Resident Evil 8",
+          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+        }
+      ]
+    },
+    {
+      "titulo": "Lançamentos",
+      "cor": "#000d1a",
+      "link_extra": {
+        "url": ""
+      },
+      "videos": [
+        {
+          "titulo": "O Homem Invisivel",
+          "url": "https://www.youtube.com/watch?v=WO_FJdiY9dA"
+        },
+        {
+          "titulo": "Palm Springs",
+          "url": "https://www.youtube.com/watch?v=CpBLtXduh_k"
+        },
+        {
+          "titulo": "The Last of Us Part II",
+          "url": "https://www.youtube.com/watch?v=16RlfA39vhM"
+        },
+        {
+          "titulo": "Underwater",
+          "url": "https://www.youtube.com/watch?v=Rszr56AH3Co"
+        }
+      ]
+    }
+  ]
+}
