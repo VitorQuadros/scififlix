@@ -27,7 +27,7 @@ function CadastroCategoria() {
   }
 
   useEffect(() => {
-    const URL = 'http://localhost:8080/categorias';
+    const URL = 'https://scififlix.herokuapp.com/categorias';
     fetch(URL)
       .then(async (respostaDoServidor) => {
         const resposta = await respostaDoServidor.json();
@@ -55,7 +55,7 @@ function CadastroCategoria() {
       >
 
         <FormField
-          label="Nome da Categoria"
+          label="Titulo da Categoria"
           name="nome"
           type="text"
           value={values.nome}
