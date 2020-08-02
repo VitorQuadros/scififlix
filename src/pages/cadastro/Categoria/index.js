@@ -3,31 +3,21 @@ import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
+import useForm from '../../../hooks/useForm';
 
 function CadastroCategoria() {
   const valoresIniciais = {
-    nome: '',
+    titulo: '',
     descricao: '',
     cor: '',
   };
 
-  const [values, setValues] = useState(valoresIniciais);
+  const { values, handleChange, clearForm } = useForm(valoresIniciais);
+
   const [categorias, setCategoria] = useState([]);
 
-  function setValue(chave, valor) {
-    setValues({
-      ...values,
-      [chave]: valor,
-    });
-  }
-
-  function handleChange(handlerInfos) {
-    const { value, name } = handlerInfos.target;
-    setValue(name, value);
-  }
-
   useEffect(() => {
-    const URL = 'https://scififlix.herokuapp.com/categorias';
+    const URL = 'localhost:8080/categorias';
     fetch(URL)
       .then(async (respostaDoServidor) => {
         const resposta = await respostaDoServidor.json();
@@ -41,7 +31,7 @@ function CadastroCategoria() {
     <PageDefault>
       <h1>
         Cadastro de Categoria:
-        {values.nome}
+        {values.titulo}
       </h1>
 
       <form onSubmit={function handleSubmit(handlerInfos) {
@@ -50,15 +40,15 @@ function CadastroCategoria() {
           ...categorias, values,
         ]);
 
-        setValues(valoresIniciais);
+        clearForm();
       }}
       >
 
         <FormField
           label="Titulo da Categoria"
-          name="nome"
+          name="titulo"
           type="text"
-          value={values.nome}
+          value={values.titulo}
           onChange={handleChange}
         />
 
@@ -82,8 +72,8 @@ function CadastroCategoria() {
 
       <ul>
         {categorias.map((categorias) => (
-          <li key={categorias.nome}>
-            {categorias.nome}
+          <li key={categorias.titulo}>
+            {categorias.titulo}
           </li>
         ))}
       </ul>
