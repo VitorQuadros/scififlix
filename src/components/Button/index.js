@@ -1,7 +1,7 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
-
-const Button = styled.a`
+const Button = styled.button`
+    background-color: var(--menuPrimary);
     color: var(--borderMenu);
     border: 1px solid var(--borderMenu);
     box-sizing: border-box;
